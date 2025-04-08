@@ -23,7 +23,23 @@ This project was created as part of my personal React learning roadmap — Phase
 
 ## 📁 Project Structure
 
-src/ ├── assets/ │ ├── images/ │ │ └── background.jpg │ └── styles/ │ ├── \_variables.scss │ ├── \_layout.scss │ ├── \_components.scss │ └── main.scss │ ├── svg/ │ └── PageIcon.jsx │ ├── components/ │ └── Counter.jsx │ ├── App.jsx └── main.jsx
+.
+├── src/
+│ └── assets/
+│ ├── images/
+│ │ ├── background.jpg
+│ │ ├── app-ui.jpg
+│ │ └── :)
+│ ├── styles/
+│ │ ├── ─ components.scss
+│ │ ├── ─ layout.scss
+│ │ ├── ─ variables.scss
+│ │ └── ─ main.scss
+│ └── svg/
+│ └── PageIcon.jsx
+└── components/
+├── App.jsx
+└── main.jsx
 
 ## 🛠️ Tech Stack
 
@@ -37,7 +53,7 @@ src/ ├── assets/ │ ├── images/ │ │ └── background.jpg �
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/react-counter-app.git
+   git clone https://github.com/dev-hemraj/react-counter-app
    cd react-counter-app
    ```
    npm install
