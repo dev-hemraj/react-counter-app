@@ -1,0 +1,91 @@
+/* _components.scss     // for buttons, cards, etc.*/
+
+.reactLogo {
+  fill: $bg-light;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100%;
+  max-width: 100px;
+}
+
+.btn {
+  padding: $spacing-sm $spacing-md;
+  border: none;
+  border-radius: $radius-md;
+  font-size: $font-size-base;
+  cursor: pointer;
+  transition: $animation-fast;
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    background-color: $gray !important;
+  }
+
+  &.primary {
+    background-color: $primary;
+    color: $text-white;
+  }
+  &.success {
+    background: $success;
+    color: $text-white;
+  }
+
+  &.danger {
+    background-color: $danger;
+    color: $text-white;
+  }
+  &.gray {
+    background-color: $gray;
+    color: $text-white;
+  }
+}
+
+.counterCard {
+  background: rgba(0, 164, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 50px;
+  transition: $animation-slow;
+  &__title {
+    color: $text-white;
+    font-size: $font-size-xl;
+    letter-spacing: -3px;
+    line-height: 0.5;
+  }
+  &__number {
+    color: $text-white;
+    font-size: $font-size-xxl;
+    line-height: 0.5;
+  }
+  &__message {
+    margin-bottom: 30px;
+    min-height: 80px;
+    p {
+      background-color: rgba(255, 255, 255, 0.6);
+      color: $danger;
+      border-radius: 20px;
+      padding: 5px 20px;
+      font-weight: bold;
+      display: inline-flex;
+      & > span {
+        padding-left: 15px;
+      }
+    }
+  }
+  &__buttonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    &--button {
+      transition: $animation-slow;
+      &:hover {
+        margin-top: -12px;
+        opacity: 0.8;
+      }
+    }
+  }
+}

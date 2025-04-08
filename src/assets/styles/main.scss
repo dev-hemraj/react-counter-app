@@ -1,0 +1,10 @@
+/* 
+_variables.scss      // for colors, fonts, sizes
+_components.scss     // for buttons, cards, etc.
+_layout.scss         // for grid, container, sections
+main.scss            // main file that uses all
+
+*/
+@import "./variables";
+@import "./components";
+@import "./layout";

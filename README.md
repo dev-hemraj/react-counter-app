@@ -1,12 +1,48 @@
-# React + Vite
+# 🔥 React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and stylish React counter app built with **Vite + React** and styled using **SCSS**.  
+This project was created as part of my personal React learning roadmap — Phase 1 complete 💪
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot
 
-## Expanding the ESLint configuration
+![Counter App UI](./src/assets/images/app-ui.png)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- ✅ Increase, Decrease, and Reset counter
+- ✅ Disables buttons when reaching min/max limit
+- ✅ Smart messages when limit is hit
+- ✅ Clean SCSS structure using partials (`_variables`, `_layout`, `_components`)
+- ✅ Responsive layout with background image
+
+---
+
+## 📁 Project Structure
+
+src/ ├── assets/ │ ├── images/ │ │ └── background.jpg │ └── styles/ │ ├── \_variables.scss │ ├── \_layout.scss │ ├── \_components.scss │ └── main.scss │ ├── svg/ │ └── PageIcon.jsx │ ├── components/ │ └── Counter.jsx │ ├── App.jsx └── main.jsx
+
+## 🛠️ Tech Stack
+
+- React `v19+`
+- Vite
+- SCSS
+- JSX Functional Components
+- Conditional Rendering & useState
+
+## 🔧 Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/react-counter-app.git
+   cd react-counter-app
+   ```
+   npm install
+   npm run dev
+
+## 🙌 Author
+
+Made with ❤️ by [Hem Raj Bhatt](https://github.com/dev-hemraj)
